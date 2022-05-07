@@ -1,6 +1,8 @@
 [org 0x0100]
 
-xor ax, ax     ;make sure ax is empty
+xor ax, ax     ;make sure ax is empty ;check zeroflag
+
+mov bx, num1
 
 add ax,[bx]
 add bx,2

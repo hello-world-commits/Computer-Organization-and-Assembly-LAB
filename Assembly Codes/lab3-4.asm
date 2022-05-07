@@ -3,7 +3,7 @@
 ;for (int i =3 ; i > 0 ; i++){
     ; result += data[i]
 
-
+  mov ax, 0x8787 
   mov ax, 0    ;reset accumulator
   mov cx, 3    ; set iteration count
   mov bx, num1 ; set the base
